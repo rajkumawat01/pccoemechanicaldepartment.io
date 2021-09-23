@@ -5,7 +5,7 @@ This is repository for PCCOE mechanical department
 Instructions for everyone
 1. Fork this repository.
 
-2. Upload(PUSH) the folder from you computer which contain all the webpages related to your assigned tab.
+2. Upload(PUSH) the folder from you computer which contain all the webpages related to your assigned tab on forked repo
 
 3. Folder name should be same as your assigned tab name (no white spaces allowed, use underscore instead of whitespace).
 
@@ -15,5 +15,7 @@ Instructions for everyone
     styles - for css files
     js     - for javascript files
     img    - for images
+
+6. And then send pull request to merge changes
 
 After doing this, keeping updating your changes in files on this repo.
