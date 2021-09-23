@@ -5,7 +5,7 @@ This is repository for PCCOE mechanical department
 Instructions for everyone
 1. Fork this repository.
 
-2. Upload(PUSH) the folder from you computer which contain all the webpages related to your assigned tab on forked repo
+2. Upload(PUSH) the folder from you computer which contain all the webpages related to your assigned tab to forked repo
 
 3. Folder name should be same as your assigned tab name (no white spaces allowed, use underscore instead of whitespace).
 
