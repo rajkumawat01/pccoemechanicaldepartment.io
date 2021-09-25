@@ -93,11 +93,10 @@ header {
 /* Qick links*/
 
 .section .section-head{
-    background-color: #266abd;
-    color: #fff;
-    padding: 2px 10px;
-    border-left: solid 6px #ffab1f;
-    border-radius: 0px 100px 100px 0px;
+    /* background-color: #266abd; */
+    color: #266abd;
+    padding: 5px 0px;
+    border-bottom: solid 2px #266abd;
 }
 .section .section-list{
     list-style: none;
@@ -186,16 +185,13 @@ header {
 }
 
 .about-section .title{
-    text-align: center;
     font-size: 20px;
     font-weight: 700;
-    color: #fff;
 }
-.about-section .title span{
-    background-color: #266abd;
+.about-section .title{
     padding: 5px 20px;
-    border-radius: 100px;
-    border-bottom: solid 4px #ffab1f;
+    color: #266abd;
+    border-bottom: solid 1px #266abd;
 }
 .about-section .text-data{
     text-align: justify !important;
@@ -245,11 +241,11 @@ header {
 /* HOD Desk*/
 .hod-desk .title{
     padding:40px 10px 0px 10px;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 550;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
     color: #266abd;
-    border-bottom: solid 2px #266abd;
+    border-bottom: solid 1px #266abd;
 }
 .hod-desk .text-data{
     text-align: justify;
@@ -258,9 +254,9 @@ header {
 
 .vision-mision .title{
     padding:40px 10px 0px 10px;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 550;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
     color: #266abd;
     border-bottom: solid 2px #266abd;
 }
@@ -279,9 +275,9 @@ header {
 
 .result .title{
     padding:40px 10px 0px 10px;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 550;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
     color: #266abd;
     border-bottom: solid 2px #266abd;
 }
@@ -294,16 +290,11 @@ header {
     padding-top: 20px;
 }
 .result .content-panel .head{
-    background-color:#266abd;
+    color: #266abd;
     font-weight: 500;
-    color: #fff;
     padding:5px 30px 5px 0px;
-    border-radius: 0px 100px 100px 0px;
-}
-.result .content-panel .head .icon{
-    background-color: orange;
-    color: #fff;
-    padding:5px 10px;
+    border-bottom: dashed 1px #266abd;
+    /* border-radius: 100px; */
 }
 .result .academic-result table th{
     background-color: #7ca2d12c;
@@ -311,9 +302,9 @@ header {
 
 .bos-section .title{
     padding:40px 10px 0px 10px;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 550;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
     color: #266abd;
     border-bottom: solid 2px #266abd;
 }
@@ -330,12 +321,35 @@ header {
 .bos-section .section-2 a{
     font-size: 14px;
 }
+.download .title{
+    padding:40px 10px 0px 10px;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
+    color: #266abd;
+    border-bottom: solid 2px #266abd;
+}
+
+
+.download ul{
+   color: #266abd;
+}
+.download ul li{
+    margin: 10px;
+}
+.download a{
+    text-decoration: none;
+    padding: 10px;  
+}
+.download ul li:hover{
+    color: #042957;
+}
 
 .syllabus .title{
     padding:40px 10px 0px 10px;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 550;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
     color: #266abd;
     border-bottom: solid 2px #266abd;
 }
@@ -352,15 +366,14 @@ header {
     padding: 10px;  
 }
 .syllabus ul li:hover{
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    border-radius: 25px;
+    color: #042957;
 }
 
 .news-page-section .title{
     padding:40px 10px 0px 10px;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 550;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
     color: #266abd;
     border-bottom: solid 2px #266abd;
 }
@@ -376,8 +389,7 @@ header {
     padding: 10px;  
 }
 .news-page-section ul li:hover{
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    border-radius: 25px;
+    color: #042853;
 }
 
 .student-alumni{
@@ -388,9 +400,9 @@ header {
 }
 .student-alumni .title{
     padding:10px 10px 0px 10px;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 550;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
     color: #266abd;
     border-bottom: solid 2px #266abd;
 }
@@ -403,10 +415,7 @@ header {
     border-radius: 20px;
     background-color: #fff;
 }
-.student-alumni .content-panel .item:hover{
-    box-shadow: none !important;
-    border:solid 1px #266abd;
-}
+
 .student-alumni .content-panel .item img{
     border-radius: 100px;
     margin: 5px;
@@ -428,6 +437,63 @@ header {
     color: rgb(144, 144, 144);
 }
 
+
+
+
+.university-rank{
+    background-color: rgba(245, 244, 244, 0.644);
+    margin-top: 30px;
+    border-radius: 10px;
+    padding-bottom: 100px !important;
+}
+.university-rank .title{
+    padding:10px 10px 0px 10px;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
+    color: #266abd;
+    border-bottom: solid 2px #266abd;
+}
+.university-rank .content-panel{
+    padding-top: 20px;   
+}
+.university-rank .content-panel .head1{
+    color:#49688e;
+}
+.university-rank .content-panel .head1 span{
+    padding-bottom: 5px;
+    border-bottom: dashed 1px #266abd;
+}
+.university-rank .content-panel .item{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.university-rank .content-panel .item img{
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+}
+.university-rank .content-panel .item .description{
+    color: rgb(144, 144, 144);
+    font-size: 13px;
+    font-weight: 500;
+    font-style: italic;
+    padding: 0px;
+    margin: 0px;
+}
+.university-rank .content-panel .item .batch{
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+    font-size: 13px;
+    font-style: italic;
+    color: rgb(144, 144, 144);
+}
+
 .admission{
     /* background-color: rgba(245, 244, 244, 0.644); */
     margin-top: 30px;
@@ -436,9 +502,9 @@ header {
 }
 .admission .title{
     padding:10px 10px 0px 10px;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 550;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
     color: #266abd;
     border-bottom: solid 2px #266abd;
 }
