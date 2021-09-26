@@ -1,3 +1,19 @@
+.extern-btn{
+    padding: 5px 0px 10px 0px;
+}
+.extern-btn a{
+   background-color:rgb(38,186,222);
+   color: black;
+   font-weight: 500;
+   padding:5px;
+   border-radius: 5px;
+   margin-bottom: 100px !important;
+}
+
+.extern-btn a:hover{
+    background-color: rgb(9, 149, 184);
+    color: rgb(247, 247, 247);
+}
 header {
     padding-top: 10px;
 }
@@ -189,7 +205,7 @@ header {
     font-weight: 700;
 }
 .about-section .title{
-    padding: 5px 20px;
+    padding: 5px 0px;
     color: #266abd;
     border-bottom: solid 1px #266abd;
 }
@@ -202,7 +218,6 @@ header {
 }
 .news-section .tab-section .nav-link{
    color: #266abd !important;
-   font-weight: 700;
    border: solid 1px #49688e;
 }
  .news-section .nav-tabs .nav-link.active,
@@ -216,17 +231,34 @@ header {
  }
 
 .branch-section{
-    border-bottom: solid 2px #266abd;
+   margin-top: 15px;
+ }
+.branch-section .head{
+    border-bottom: solid 1px #266abd;
+    padding-bottom: 5px;
+}
+.branch-section .post{
+    font-size: 14px;
+    /* border-bottom: solid 2px #266abd; */
+}
+.branch-section .branch{
+    border-bottom: solid 1px #ffab1f;
+    font-size: 14px;
+    padding: 5px;
 }
 .branch-section img{
-    height: 150px;
-    width: 150px;
+    height: 50px;
+    width: 50px;
 }
 .branch-section .item{
-    padding: 15px 0px;
-    border-bottom: solid 2px #ffab1f;
+    padding: 20px 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 90%;
+    /* border-bottom: solid 2px #ffab1f; */
 }
-.branch-section .item:hover {
+.branch-section .branch:hover {
     border-bottom: solid 2px #266abd;
     color: #ffab1f;
 }
@@ -293,7 +325,7 @@ header {
     color: #266abd;
     font-weight: 500;
     padding:5px 30px 5px 0px;
-    border-bottom: dashed 1px #266abd;
+    border-bottom: solid 1px #266abd;
     /* border-radius: 100px; */
 }
 .result .academic-result table th{
@@ -346,7 +378,7 @@ header {
 }
 
 .syllabus .title{
-    padding:40px 10px 0px 10px;
+    padding:40px 10px 0px 0px;
     text-align: left;
     font-size: 25px;
     font-weight: 500;
@@ -369,6 +401,74 @@ header {
     color: #042957;
 }
 
+.time-table .title{
+    padding:40px 10px 0px 0px;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
+    color: #266abd;
+    border-bottom: solid 2px #266abd;
+}
+.time-table ul{
+   color: #266abd;
+}
+.time-table ul li{
+    margin: 10px;
+}
+.time-table a{
+    text-decoration: none;
+    padding: 10px;  
+}
+.time-table ul li:hover{
+    color: #042957;
+}
+
+
+.examination .title{
+    padding:40px 10px 0px 0px;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
+    color: #266abd;
+    border-bottom: solid 2px #266abd;
+}
+.examination ul{
+   color: #266abd;
+}
+.examination ul li{
+    margin: 10px;
+}
+.examination a{
+    text-decoration: none;
+    padding: 10px;  
+}
+.examination ul li:hover{
+    color: #042957;
+}
+
+
+
+.department-boucher .title{
+    padding:40px 10px 0px 0px;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
+    color: #266abd;
+    border-bottom: solid 2px #266abd;
+}
+.department-boucher ul{
+   color: #266abd;
+}
+.department-boucher ul li{
+    margin: 10px;
+}
+.department-boucher a{
+    text-decoration: none;
+    padding: 10px;  
+}
+.department-boucher ul li:hover{
+    color: #042957;
+}
 .news-page-section .title{
     padding:40px 10px 0px 10px;
     text-align: left;
@@ -443,7 +543,7 @@ header {
 .university-rank{
     background-color: rgba(245, 244, 244, 0.644);
     margin-top: 30px;
-    border-radius: 10px;
+    border-radius: 5px;
     padding-bottom: 100px !important;
 }
 .university-rank .title{
@@ -458,16 +558,16 @@ header {
     padding-top: 20px;   
 }
 .university-rank .content-panel .head1{
-    color:#49688e;
+    color:#266abd;
 }
 .university-rank .content-panel .head1 span{
     padding-bottom: 5px;
-    border-bottom: dashed 1px #266abd;
+    border-bottom: solid 1px #266abd;
 }
 .university-rank .content-panel .item{
     margin-top: 20px;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 5px;
     background-color: #fff;
 }
 
