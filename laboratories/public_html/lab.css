@@ -14,7 +14,13 @@ and open the template in the editor.
   padding: 6px 6px 6px 6px;
  
 }
-
+.column2{
+    display: block;
+    float:left;
+    width: 30%;
+    padding: 6px 6px 6px 6px;
+    
+}
 img {
   
   padding: 5px;
@@ -40,17 +46,18 @@ h1{
 }
 h3{
     text-align: center;
+    
+    
 }
 
-
 .typewriter h3 {
-  color: white ;
+  color: black ;
   font-family: monospace bold;
   overflow: hidden; 
   border-right: .15em solid orange; 
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
+  white-space: nowrap;
+  margin: 0 auto; 
+  letter-spacing: .15em;
   animation: 
     typing 3.5s steps(30, end),
     blink-caret .5s step-end infinite;
@@ -69,10 +76,17 @@ h3{
   50% { border-color: orange }
 }
 
+.image-container{
+    text-align: center;
+}
 a:hover {
-  background-color: blue;
+  background-color: black;
   color: blue;
   font-weight: bold;
 }
 
-
+.new{
+    border-top: 4px solid lightskyblue;
+    align: center;
+    width: 40% ;
+}
