@@ -3,7 +3,6 @@
     width: 100%;
     z-index: 999;
     background-color: #266abd;
-    border-bottom: solid 5px #ffab1f;
 }
 #menu ul {
     margin: 0;
@@ -70,8 +69,8 @@
 }
 
 #menu a:hover {
-    background-color: #ffab1f;
-    color: #ffff;
+    background-color: #c3d8f1;
+    color: black;
 }
 
 #menu .sub-menu {

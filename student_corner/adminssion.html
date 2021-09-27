@@ -27,51 +27,38 @@
     <header>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-3 text-center">
-                    <a href="http://www.pccoepune.com/" class="text-decoration-none" style="color:rgb(38 186 222);">
-                        <img src="../vender/img/logo/PCCOE_LOGO_b.jpg" style="width: 125px; height: 100px" /><br>
-                        <b>PCCOE</b>
-                    </a>
+                <div class="col-lg-3 col-sm-3 text-center">
+                    <img src="../vender/img/logo/PCCOE_LOGO_b.jpg" style="width: 125px; height: 100px" /><br>
+                    <div class="extern-btn">
+                      <a href="http://www.pccoepune.com/" class="text-decoration-none">
+                        <i class="fas fa-home"></i> PCCOE
+                      </a>
+                    </div>
                 </div>
-                <div class="col-sm-6">
+                <div class="col-lg-6 col-sm-9">
                     <div class="text-center">
+                        <h5 class="mt-3">PCET PIMPRI CHINCHWAD COLLEGE OF ENGINEERING</h5>
                         <div class="clg-name">
                             <h3>DEPARTMENT OF MECHANICAL ENGINEERING</h3>
                         </div>
-                        <h5 class="m-0">PCET PIMPRI CHINCHWAD COLLEGE OF ENGINEERING</h5>
-                        <p class="m-0">
-                            <b>NBA</b> Accredited | <b>NAAC</b> Accredited with '<b>A</b>' | An <b>Atutonomous Institute
-                            </b><br />
+                        <div class="label-undergraduate">
+                          <span>Undergraduate</span>
+                        </div>
+                        <!-- <p class="m-0">
+                            <b>NBA</b> Accredited | <b>NAAC</b> Accredited with '<b>A</b>' | An <b>Atutonomous Institute </b><br />
                             <b>ISO 9001: 2015</b> Certified | Permanetly Affilated to
                             <b>SPPU</b>, Pune
-                        </p>
+                        </p> -->
                     </div>
                 </div>
-                <div class="col-sm-3 text-center d-none d-md-block">
-                    <a href="http://pcet.org.in/"><img src="../vender/img/logo/logo.png"
-                            style="width: 125px; height: 100px" /></a>
+                <div class="col-lg-3 text-center d-none d-lg-block">
+                    <a href="http://pcet.org.in/"><img src="../vender/img/logo/logo.png" style="width: 125px; height: 100px" /></a>
                 </div>
             </div>
         </div>
     </header>
-    <!-- End Header -->
-
-    <!-- Start Spot Light -->
-    <div class="marquee-section p-0 m-0">
-        <div class="running-text">
-            <span class="static-head">SPOTLIGHT</span>
-            <marquee scrollamount="4">
-                <span class="marquee-text">India Today Engineering Survey 2021 : PCCoE ranked 76th in INDIA
-                    among top 200 Private Engineering Colleges in India Today Engineering
-                    Survey 2021</span>
-                <span class="marquee-text">India Today Engineering Survey 2021 : PCCoE ranked 76th in INDIA
-                    among top 200 Private Engineering Colleges in India Today Engineering
-                    Survey 2021</span>
-            </marquee>
-        </div>
-    </div>
-    <!-- End Spot Light -->
-
+     <!-- End Header -->
+    
     <!-- Start Navbar -->
     <div class="menu-section">
         <nav id="menu">
@@ -92,7 +79,7 @@
                         <li><a href="../aboutus/student_alumni.html">Student and Alumni's</a></li>
                     </ul>
                 </li>
-                <li class="b-left"><a href="#">People</a></li>
+                <li class="b-left"><a href="People/index.html">People</a></li>
                 <li class="b-left"><a href="#">Academics
                         <span class="drop-icon">▾</span>
                         <label title="Toggle Drop-down" class="drop-icon" for="sm8">▾</label>
@@ -101,7 +88,18 @@
                     </a>
                     <ul class="sub-menu">
                         <li><a href="">UG</a></li>
-                        <li><a href="">PG</a></li>
+                        <li>
+                          <a href="">PG
+                            <span class="drop-icon">▸</span>
+                            <label title="Toggle Drop-down" class="drop-icon" for="sm5">▾</label>
+                          </a>
+                          <input type="checkbox" id="sm5">
+                          </a>
+                          <ul class="sub-menu">
+                              <li><a href="../pg/me-design.html"><small>Design Engineering</small></a></li>
+                              <li><a href="../pg/me-heatpower.html"><small>Heat Power Engineering</small></a></li>
+                          </ul>
+                        </li>
                         <li><a href="">Ph. D</a></li>
                     </ul>
                 </li>
@@ -112,12 +110,16 @@
                     <input type="checkbox" id="sm5">
                     </a>
                     <ul class="sub-menu">
-                        <li><a href="">Industry Intraction</a></li>
-                        <li><a href="">Mentors</a></li>
+                        <li><a href="">Research Area Sigs</a></li>
+                        <li><a href="">Publication</a></li>
+                        <li><a href="">Intellectual Property Rights</a></li>
+                        <li><a href="">Research Funding </a></li>
+                        <li><a href="">Consultancy/sponsored Projects</a></li>
+                        <li><a href="">Student Achivements</a></li>
                     </ul>
                 </li>
                 <li class="b-left"><a href="#">Placement</a></li>
-                <li class="b-left"><a href="#">Liboratories</a></li>
+                <li class="b-left"><a href="../laboratories/public_html/index.html">Laboratories</a></li>
                 <li class="b-left"><a href="#">Clubs
                         <span class="drop-icon">▾</span>
                         <label title="Toggle Drop-down" class="drop-icon" for="sm9">▾</label>
@@ -125,23 +127,24 @@
                     <input type="checkbox" id="sm9">
                     </a>
                     <ul class="sub-menu">
-                        <li><a href="">Team Ambush</a></li>
-                        <li><a href="">Team Red Boran</a></li>
-                        <li><a href="">Team Supra</a></li>
-                        <li><a href="">Team Solarium</a></li>
-                        <li><a href="">Robocon</a></li>
-                        <li><a href="">Sports</a></li>
+                        <li><a href="../clubs/ambush.html">Team Ambush</a></li>
+                        <li><a href="../clubs/redbaron.html">Team Red Baron</a></li>
+                        <li><a href="../clubs/kratos.html">Team Kratos Racing</a></li>
+                        <li><a href="../clubs/solarium.html">Team Solarium</a></li>
+                        <li><a href="../clubs/robocon.html">Robocon</a></li>
+                        <li><a href="../clubs/ishrae.html">ISHRAE</a></li>
+                        <li><a href="../clubs/iei.html">IEI</a></li>
+                        <li><a href="../clubs/sport.html">Sports</a></li>
                     </ul>
                 </li>
-                <li class="b-left b-right"><a href="#">Contact us</a></li>
+                <li class="b-left b-right"><a href="../contact_us/contact.html">Contact us</a></li>
             </ul>
         </nav>
     </div>
-    <br><br>
     <!-- End Navbar -->
-
+<br><br>
     <!-- Content page-->
-    <div class="container p-2 admission">
+    <div class="container p-2 mt-4 admission bg-light">
         <div class="container-fluid title"><span>Admission</span></div>
         <div class="container-fluid about">
             <ul class="list-unstyled fa-ul">
@@ -223,112 +226,119 @@
                 </li>
             </ol>
         </div>
-        <div class="container-fluid eligibility-criteria mt-5">
-            <ol class="fa-ul">
-                <li>
-                    <h5 class="head">
-                        <span class="fa-li"><i class="fas fa-hand-point-right text-secondary"></i></span> 
-                        Documents Required At The Time Of Admission For First Year B-Tech./MCA/ME/ Direct S.E.<br>
-                        The Following Documents Are Required At The Time Of Admission :
-                    </h5>
-                </li>
-            </ol>
-            <ol class="fa-ul">
-                <li><span class="fa-li"><i class="fas fa-arrow-circle-right"></i></span> All Original Certificates</li>
-                <li><span class="fa-li"><i class="fas fa-arrow-circle-right"></i></span> One Sets of Documents Xerox copies</li>
-                <li><span class="fa-li"><i class="fas fa-arrow-circle-right"></i></span> One Passport Size Photograph</li>
-            </ol>
-        </div>
-        <div class="">
-            <table class="table table-bordered my-table table-striped">
-                <thead>
-                    <tr>
-                        <th>Sr. No</th>
-                        <th class="text-center">Documents</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Allotment Letter, Seat Acceptance Form and Acknowledgement of E-SC Center </td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>CET Score card / JEE Mark Sheet / GATE Score card </td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Statement of Marks – S.S.C. </td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>Statement of Marks – H.S.C. </td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>Diploma Mark sheet </td>
-                    </tr>
-                    <tr>
-                        <td>6</td>
-                        <td>Degree Mark sheet </td>
-                    </tr>
-                    <tr>
-                        <td>7</td>
-                        <td>Leaving Certificate / Transfer Certificate / Migration / Equivalent Certificate (if applicable) </td>
-                    </tr>
-                    <tr>
-                        <td>8</td>
-                        <td>Certificate of Indian Nationality in the name of the Candidate </td>
-                    </tr>
-                    <tr>
-                        <td>9</td>
-                        <td>Domicile Certificate (if applicable), clearly indicating the place of Permanent Residence of the Candidate / Father or Mother or Husband </td>
-                    </tr>
-                    <tr>
-                        <td>10</td>
-                        <td>Cast Certificate (if applicable) </td>
-                    </tr>
-                    <tr>
-                        <td>11</td>
-                        <td>Cast Validity </td>
-                    </tr>
-                    <tr>
-                        <td>12</td>
-                        <td>Non – Creamy Layer Certificate valid up to 31st March 2021 (if applicable) </td>
-                    </tr>
-                    <tr>
-                        <td>13</td>
-                        <td>Certificates in Performa A, B, C, D, E, F, G, J, K, L, O, U and V as applicable </td>
-                    </tr>
-                    <tr>
-                        <td>14</td>
-                        <td>Income Certificate (if applicable) </td>
-                    </tr>
-                    <tr>
-                        <td>15</td>
-                        <td>Gap Certificate (if applicable) </td>
-                    </tr>
-                    <tr>
-                        <td>16</td>
-                        <td>Aadhar Card (True Copy) </td>
-                    </tr>
-                    <tr>
-                        <td>17</td>
-                        <td>Pan Card Xerox </td>
-                    </tr>
-                    <tr>
-                        <td>18</td>
-                        <td>Permanent Residential Address Proof (Attested copy of Ration Card / Light Bill etc.) </td>
-                    </tr>
-                    <tr>
-                        <td>19</td>
-                        <td>Any other relevant document </td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-        <p class="text-justify">Original Certificates other than Leaving / Transfer / Migration Certificates shall be returned after declaration of Results (University Examination) of First Semester exams. By Order,</p>
-    </div>
+     </div>
+
+
+     <div class="container">
+         <div class="bg-light rounded">
+            <div class="container-fluid eligibility-criteria mt-5 p-3">
+                <ol class="fa-ul">
+                    <li>
+                        <h5 class="head">
+                            <span class="fa-li"><i class="fas fa-hand-point-right text-secondary"></i></span> 
+                            Documents Required At The Time Of Admission For First Year B-Tech./MCA/ME/ Direct S.E.<br>
+                            The Following Documents Are Required At The Time Of Admission :
+                        </h5>
+                    </li>
+                </ol>
+                <ol class="fa-ul">
+                    <li><span class="fa-li"><i class="fas fa-arrow-circle-right"></i></span> All Original Certificates</li>
+                    <li><span class="fa-li"><i class="fas fa-arrow-circle-right"></i></span> One Sets of Documents Xerox copies</li>
+                    <li><span class="fa-li"><i class="fas fa-arrow-circle-right"></i></span> One Passport Size Photograph</li>
+                </ol>
+            </div>
+            <div class="p-4">
+                <table class="table my-table table-borderless">
+                    <thead class="bg-blue">
+                        <tr>
+                            <th>Sr. No</th>
+                            <th class="text-center">Documents</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Allotment Letter, Seat Acceptance Form and Acknowledgement of E-SC Center </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>CET Score card / JEE Mark Sheet / GATE Score card </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Statement of Marks – S.S.C. </td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Statement of Marks – H.S.C. </td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Diploma Mark sheet </td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Degree Mark sheet </td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Leaving Certificate / Transfer Certificate / Migration / Equivalent Certificate (if applicable) </td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Certificate of Indian Nationality in the name of the Candidate </td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>Domicile Certificate (if applicable), clearly indicating the place of Permanent Residence of the Candidate / Father or Mother or Husband </td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>Cast Certificate (if applicable) </td>
+                        </tr>
+                        <tr>
+                            <td>11</td>
+                            <td>Cast Validity </td>
+                        </tr>
+                        <tr>
+                            <td>12</td>
+                            <td>Non – Creamy Layer Certificate valid up to 31st March 2021 (if applicable) </td>
+                        </tr>
+                        <tr>
+                            <td>13</td>
+                            <td>Certificates in Performa A, B, C, D, E, F, G, J, K, L, O, U and V as applicable </td>
+                        </tr>
+                        <tr>
+                            <td>14</td>
+                            <td>Income Certificate (if applicable) </td>
+                        </tr>
+                        <tr>
+                            <td>15</td>
+                            <td>Gap Certificate (if applicable) </td>
+                        </tr>
+                        <tr>
+                            <td>16</td>
+                            <td>Aadhar Card (True Copy) </td>
+                        </tr>
+                        <tr>
+                            <td>17</td>
+                            <td>Pan Card Xerox </td>
+                        </tr>
+                        <tr>
+                            <td>18</td>
+                            <td>Permanent Residential Address Proof (Attested copy of Ration Card / Light Bill etc.) </td>
+                        </tr>
+                        <tr>
+                            <td>19</td>
+                            <td>Any other relevant document </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="text-justify p-3">Original Certificates other than Leaving / Transfer / Migration Certificates shall be returned after declaration of Results (University Examination) of First Semester exams. By Order,</p>
+       
+         </div>
+     </div>
 
 
     <!-- End content -->
