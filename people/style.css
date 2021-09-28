@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+.card-horizontal {
+    padding: 20px;
+    padding-top: 7px;
+    display: flex;
+    flex: 1 1 auto;
+    padding-bottom: 5px;
+}
+
+.aoi {
+    margin: 0;
+    padding: 0
+}
+
+.aoi p {
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+
+.row {
+    max-height: 50%;
+}
+
+.cardwebsite {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardwebsite button {
+    box-shadow: 3px 3px 8px rgb(179, 177, 177);
+}
+
+.cardwebsite button:hover {
+    box-shadow: 5px 5px 8px rgb(150, 148, 148);
+}
+
+.card-body {
+    margin: 0px;
+    margin-top: 10px;
+    width: 70em;
+    padding: 15px;
+    padding-bottom: 0px;
+}
+
+.card-title {
+    margin-left: 20px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 600;
+}
+
+.card img {
+    width: 150px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.container-fluid,
+.card,
+.row {
+    width: 100%;
+    margin: 0px;
+}
+
+.img-square-wrapper {
+    align-self: center;
+    align-content: center;
+    /* padding-left: 9px; */
+}
+
+.img-square-wrapper img {
+    border-radius: 7px;
+    box-shadow: 3px 3px 8px rgb(179, 177, 177);
+}
+
+.profile a {
+    padding: 0px;
+    margin: 3px;
+}
+
+.col-sm-9 p {
+    margin-bottom: 0px;
+}
+
+.profile button {
+    margin: 0 5px 5px 5px;
+    padding: 3px 10px;
+    background-color: rgb(43, 131, 211);
+    border: 1px solid rgba(43, 131, 211);
+}
+
+.card-title button {
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+}
+
+.profile {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    float: right;
+}
+
+.bar {
+    background-color: rgb(34, 94, 150);
+    height: 2px;
+    align-content: center;
+    max-width: 60%;
+}
+
+.separator {
+    margin-top: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: rgb(43, 131, 211);
+    font-size: large;
+    text-align: center;
+    font-size: x-large;
+    background-color: rgba(34, 94, 150, 0.103);
+}
+
+.separator p {
+    margin-bottom: 0px;
+}
+
+.profil {
+    display: flex;
+    align-content: flex-end;
+    justify-content: end;
+}
+
+.goup {
+    justify-content: center;
+    margin: 20px 0;
+    padding: 2px 7px;
+    border-radius: 0px;
+    /* text-transform: lowercase; */
+    background-color: rgb(45, 120, 182);
+}
+
+.goup:hover {
+    background-color: rgba(45, 120, 182, 0.473);
+    color: black;
+    border: 2px solid black;
+}
+
+.goup a:hover {
+    color: black;
+}
+
+.logo {
+    margin-left: auto;
+    padding: 10px;
+    float: left;
+}
+
+.logopcet {
+    padding: 10px;
+    float: right;
+}
+
+.header {
+    text-align: center;
+}
+
+.clg-name {
+    min-width: 200px;
+    padding: 10px;
+}
+
+.affiliation {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.cardwebsite {
+    align-content: center;
+    align-items: center;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.card-text {
+    padding: 0px;
+    font-size: large;
+}
+
+.card-body {
+    padding-top: 0;
+    padding-right: 0;
+    font-weight: 500px;
+}
+
+.card {
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    border-radius: 10px;
+}
+
+.profile button {
+    margin-top: 5px;
+}
+
+.card-footer a {
+    font-weight: 500px;
+    font-size: 16px;
+}
+
+.center {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+    .logo {
+        display: block;
+        margin-right: 50px;
+        margin-left: 110px;
+    }
+    .space {
+        display: none;
+        width: 0;
+        height: 0;
+    }
+    .row {
+        margin: 0;
+        padding: 0;
+    }
+    .col-8 .mt-5 {
+        margin: 0;
+        padding: 0;
+    }
+    .card-horizontal {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        padding: 0;
+    }
+    .card-body {
+        width: 100%;
+        margin: 0px;
+        padding: 10px;
+        padding-left: 0;
+        font-size: small;
+    }
+    .card-body h4 {
+        padding-left: 20px;
+        display: block;
+    }
+    .card-text {
+        font-size: medium;
+        padding: 10px;
+    }
+    .img-square-rapper {
+        width: 50%;
+        align-content: center;
+        align-self: center;
+        align-items: center;
+        padding-left: 0;
+    }
+    img {
+        width: 100%;
+        padding-left: 0;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+    }
+    .container-fluid {
+        padding: 0px;
+        width: 10;
+    }
+    .container-fluid,
+    .card,
+    .row {
+        width: 300px;
+        margin: 0px;
+    }
+    .profile button:first-child {
+        margin-left: 0px;
+    }
+    .card-title {
+        padding: 0 6px;
+        margin: 0;
+    }
+}
+
+.card4 {
+    margin-bottom: 5px;
+}
+
+.profile button {
+    margin-top: 0px;
+    padding-top: 0px;
+    display: flex;
+    align-items: flex-end;
+}
