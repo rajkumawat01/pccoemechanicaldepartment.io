@@ -5,265 +5,485 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>research funding</title>
-    <link rel="stylesheet" href="css/researchfunding.css" class="css">
+    <link href="../vender/img/logo/PCCOE_LOGO_b.jpg"  rel="shortcut icon" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link href="../vender/css/bootstrap.css" rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"> -->
+    <link href="../vender/css/navbar.css" rel="stylesheet" />
+    <link href="../vender/css/style1.css" rel="stylesheet" />
+     <!-- Icon Link -->
+     <link href="../vender/icon/css/brands.css" rel="stylesheet" />
+     <link href="../vender/icon/css/fontawesome.css" rel="stylesheet" />
+     <link href="../vender/icon/css/solid.css" rel="stylesheet" />
 </head>
 <body>
-<center>
-<div class="section">
-    <div class="topic">
-        <h4> a) 2018-19</h4>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2 col-sm-3 text-center">
+                    <img src="../vender/img/logo/PCCOE_LOGO_b.jpg" style="width: 125px; height: 100px" /><br>
+                    <div class="extern-btn">
+                        <a href="http://www.pccoepune.com/" class="text-decoration-none">
+                            <i class="fas fa-home"></i> PCCOE
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-sm-9">
+                    <div class="text-center">
+                        <h5 class="mt-3">PCET PIMPRI CHINCHWAD COLLEGE OF ENGINEERING</h5>
+                        <div class="clg-name">
+                            <h3>DEPARTMENT OF MECHANICAL ENGINEERING</h3>
+                        </div>
+                        <!-- <p class="m-0">
+                            <b>NBA</b> Accredited | <b>NAAC</b> Accredited with '<b>A</b>' | An <b>Atutonomous Institute </b><br />
+                            <b>ISO 9001: 2015</b> Certified | Permanetly Affilated to
+                            <b>SPPU</b>, Pune
+                        </p> -->
+                    </div>
+                </div>
+                <div class="col-lg-2 text-center d-none d-lg-block">
+                    <a href="http://pcet.org.in/"><img src="../vender/img/logo/logo.png" style="width: 125px; height: 100px" /></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Navbar -->
+    <div class="menu-section">
+        <nav id="menu">
+            <label for="tm" id="toggle-menu"><b>Menu</b> <span class="drop-icon"><b>&#9776;</b></span></label>
+            <input type="checkbox" id="tm">
+            <ul class="main-menu cf">
+                <li class="b-left"><a href="../index.html">Home</a></li>
+                <li class="b-left"><a href="../aboutus/BOS.html">About us
+                    <span class="drop-icon">▾</span>
+                    <label title="Toggle Drop-down" class="drop-icon" for="sm0">▾</label>
+                </a>
+                    <input type="checkbox" id="sm0">
+                    <ul class="sub-menu">
+                        <li><a href="../aboutus/hod_desk.html">HOD Desk</a></li>
+                        <li><a href="../aboutus/vision-mission.html">Vision and Mission</a></li>
+                        <li><a href="../aboutus/program_outcome.html">Program Outcomes</a></li>
+                        <li><a href="../aboutus/BOS.html">Board Of Studies</a></li>
+                        <li><a href="../aboutus/student_alumni.html">Student and Alumni's</a></li>
+                    </ul>
+                </li>
+                <li class="b-left"><a href="../People/index.html">People
+              <span class="drop-icon">▾</span>
+              <label title="Toggle Drop-down" class="drop-icon" for="sm88">▾</label>
+              </a>
+                    <input type="checkbox" id="sm88">
+                    <ul class="sub-menu">
+                        <li><a href="../">Staff</a></li>
+                    </ul>
+                </li>
+                <li class="b-left"><a href="#">Academics
+                    <span class="drop-icon">▾</span>
+                    <label title="Toggle Drop-down" class="drop-icon" for="sm8">▾</label>
+                </a>
+                    <input type="checkbox" id="sm8">
+                    </a>
+                    <ul class="sub-menu">
+                        <li><a href="../index.html">UG</a></li>
+                        <li>
+                            <a href="../index.html">PG
+                        <span class="drop-icon">▸</span>
+                        <label title="Toggle Drop-down" class="drop-icon" for="sm5">▾</label>
+                      </a>
+                            <input type="checkbox" id="sm5">
+                            </a>
+                            <ul class="sub-menu">
+                                <li><a href="../pg/me-design.html">Design Engineering</a></li>
+                                <li><a href="../pg/me-heatpower.html">Heat Power Engineering</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="../phd/phd_home.html">Ph. D</a></li>
+                    </ul>
+                </li>
+                <li class="b-left"><a href="#">Research
+                    <span class="drop-icon">▾</span>
+                    <label title="Toggle Drop-down" class="drop-icon" for="sm5">▾</label>
+                </a>
+                    <input type="checkbox" id="sm5">
+                    </a>
+                    <ul class="sub-menu">
+                        <li><a href="research/sig.html">Research Area Sigs</a></li>
+                        <li><a href="">Publication</a></li>
+                        <li><a href="../research/copyright.html">Intellectual Property Rights</a></li>
+                        <li><a href="../research/research funding.html">Research Funding </a></li>
+                        <li><a href="">Consultancy/sponsored Projects</a></li>
+                        <li><a href="">Student Achivements</a></li>
+                    </ul>
+                </li>
+
+                <li class="b-left"><a href="#">Placement
+              <span class="drop-icon">▾</span>
+              <label title="Toggle Drop-down" class="drop-icon" for="sm50">▾</label>
+              </a>
+                    <input type="checkbox" id="sm50">
+                    </a>
+                    <ul class="sub-menu">
+                        <li><a href="../placement/recruiter.html">Major Recruiters</a></li>
+                        <li><a href="../placement/placement.html">Placement</a></li>
+                        <li><a href="../placement/internship.html">Internship</a></li>
+                        <li><a href="../placement/training.html">Industrial Visit & Training Program</a></li>
+                        <li><a href="../placement/mou.html">MOU's</a></li>
+                    </ul>
+                </li>
+                <li class="b-left"><a href="../laboratories/public_html/index.html">Laboratories</a></li>
+                <li class="b-left"><a href="#">Clubs
+                    <span class="drop-icon">▾</span>
+                    <label title="Toggle Drop-down" class="drop-icon" for="sm9">▾</label>
+                </a>
+                    <input type="checkbox" id="sm9">
+                    </a>
+                    <ul class="sub-menu">
+                        <li><a href="../clubs/ambush.html">Team Ambush</a></li>
+                        <li><a href="../clubs/redbaron.html">Team Red Baron</a></li>
+                        <li><a href="../clubs/kratos.html">Team Kratos Racing</a></li>
+                        <li><a href="../clubs/solarium.html">Team Solarium</a></li>
+                        <li><a href="../clubs/automaton.html">Team Automatons</a></li>
+                        <li><a href="../clubs/ishrae.html">ISHRAE</a></li>
+                        <li><a href="../clubs/iei.html">IEI</a></li>
+                        <li><a href="../clubs/sport.html">Sports</a></li>
+                    </ul>
+                </li>
+                <li class="b-left b-right"><a href="../contact_us/contact.html">Contact us</a></li>
+            </ul>
+        </nav>
     </div>
-    <br>
-    <div class="table"><table id="one">
-        <tbody>
-           <tr id="header">
-               <td>Sr. No.</td>
-               <td>Project title</td>
-               <td>Amount, Rs.</td>
-               <td>Faculty</td>
-               <td>Agency</td>
-           </tr>
-           <tr>
-               <td>1</td>
-               <td>Minimization of flow instabilities over Impeller eye of a Low head Mixed Flow Centrifugal Pump through design modification of lock nut</td>
-               <td>3,00,000</td>
-               <td>Prof. N.A. Mandhare</td>
-               <td>ASPIRE, BCUD, SPPU</td>
-           </tr>
-        </tbody>
-    </table></div>
-</div>
-    <br><br><br>
-    <div class="section">
-        <div class="topic">
-            <h4> b) 2017-18</h4>
+    <!-- End Navbar -->
+
+    <!-- Start Spot Light -->
+    <div class="marquee-section">
+        <div class="running-text">
+            <span class="static-head">SPOTLIGHT</span>
+            <marquee scrollamount="4" class="p-1">
+                <span class="marquee-text"> India Today Engineering Survey 2021 : PCCoE ranked 76th in INDIA
+                    among top 200 Private Engineering Colleges in India Today Engineering
+                    Survey 2021</span>
+            </marquee>
         </div>
-        <br>
-        <div class="table">
-        <table id="two">
-        <tbody>
-            <tr id="header">
-                <td width="45" valign="top">
-                    <p>
-                        <em>Sr. No.</em>
-                    </p>
-                </td>
-                <td width="217" valign="top">
-                    <p>
-                        <em>Details</em>
-                    </p>
-                </td>
-                <td width="76" valign="top">
-                    <p>
-                        <em>Amount, Rs.</em>
-                    </p>
-                </td>
-                <td width="89" valign="top">
-                    <p>
-                        <em>Faculty </em>
-                    </p>
-                </td>
-                <td width="185" valign="top">
-                    <p>
-                        <em>Agency</em>
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <td width="45" valign="top">
-                    <p>
-                        <strong>1</strong>
-                    </p>
-                </td>
-                <td width="217" valign="top">
-                    <p>
-                        Development of Solar Electric Passenger Vehicle
-                    </p>
-                </td>
-                <td width="76" valign="top">
-                    <p>
-                        4,30,000
-                    </p>
-                </td>
-                <td width="89" valign="top">
-                    <p>
-                        Dr. S. S. Lakade,
-                    </p>
-                    <p>
-                        Dr. A. Roy
-                    </p>
-                </td>
-                <td width="185" valign="top">
-                    <p>
-                        La Fondation, Dassault Systems
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <td width="45" valign="top">
-                    <p>
-                        <strong>2</strong>
-                    </p>
-                </td>
-                <td width="217" valign="top">
-                    <p>
-                        Design &amp; development of hydraulic rotational jib crane
-                        + 02 projects
-                    </p>
-                </td>
-                <td width="76" valign="top">
-                    <p>
-                        8,77,500
-                    </p>
-                </td>
-                <td width="89" valign="top">
-                    <p>
-                        Dr. S.S. Lakade
-                    </p>
-                </td>
-                <td width="185" valign="top">
-                    <p>
-                        TIFAC MSME Internship programme
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <td width="45" valign="top">
-                    <p>
-                        <strong>3</strong>
-                    </p>
-                </td>
-                <td width="217" valign="top">
-                    <p>
-                        Seminar Grant for Training program on Biomass &amp;
-                        Bio-Energy
-                    </p>
-                </td>
-                <td width="76" valign="top">
-                    <p>
-                        1,00,000
-                    </p>
-                </td>
-                <td width="89" valign="top">
-                    <p>
-                        Dr. S.S. Lakade,
-                    </p>
-                    <p>
-                        Prof. G.G. Momin
-                    </p>
-                </td>
-                <td width="185" valign="top">
-                    <p>
-                        BCUD, SPPU
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <td width="45" valign="top">
-                    <p>
-                        <strong>4</strong>
-                    </p>
-                </td>
-                <td width="217" valign="top">
-                    <p>
-                        Installation of Rooftop Solar Power plant
-                    </p>
-                </td>
-                <td width="76" valign="top">
-                    <p>
-                        5,00,000
-                    </p>
-                </td>
-                <td width="89" valign="top">
-                    <p>
-                        Dr. A. Roy
-                    </p>
-                </td>
-                <td width="185" valign="top">
-                    <p>
-                        BCUD, SPPU
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <td width="45" valign="top">
-                    <p>
-                        <strong>5</strong>
-                    </p>
-                </td>
-                <td width="217" valign="top">
-                    <p>
-                        Modernization of Heat Transfer Laboratory
-                    </p>
-                </td>
-                <td width="76" valign="top">
-                    <p>
-                        3,50,000
-                    </p>
-                </td>
-                <td width="89" valign="top">
-                    <p>
-                        Dr. S.S. Lakade, Dr. P.A. Deshmukh, Dr. C.L. Ladekar
-                    </p>
-                </td>
-                <td width="185" valign="top">
-                    <p>
-                        MODROB, AICTE
-                    </p>
-                </td>
-            </tr>
-        </tbody>
-     </table></div></div>
-     <br><br><br>
-     <div class="section">
-        <div class="topic">
-            <h4> c) 2016-17</h4>
-        </div>
-        <br>
-        <div class="table"><table id="three">
-        <tbody>
-            <tr id="header">
-                <td>Sr. No.</td>
-                <td>Details</td>
-                <td>Amount, Rs.</td>
-                <td>Faculty</td>
-                <td>Agency</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>Design and development of low cost solar air dryer using phase change material</td>
-                <td>1,40,000</td>
-                <td>Prof. S. P. Salve</td>
-                <td>BCUD, SPPU</td>
-            </tr>
-        </tbody>	
-     </table></div></div>
-     <br><br><br>
-     <div class="section">
-        <div class="topic">
-            <h4> d) 2014-15</h4>
-        </div>
-        <br>
-        <div class="table"><table id="four">
-        <tbody>
-            <tr id="header">
-                <td>Sr. No.</td>
-                <td>Details</td>
-                <td>Amount, Rs.</td>
-                <td>Faculty</td>
-                <td>Agency</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>Experimental study of lifted spray flame</td>
-                <td>85,000</td>
-                <td>Dr. U.G. Potdar</td>
-                <td>BCUD, SPPU</td>
-            </tr>
-        </tbody>	
-     </table>
     </div>
-</div>
-</center>
+    <!-- End Spot Light -->
+
+    <div class="container mt-5 program-outcome">
+        <br>
+        <div><h4 style="color: rgba(0, 0, 0, 0.829);">Faculty funded projects
+        </h4></div>
+        <br>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed p-2" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                   <h6>a) 2018-19</h6> 
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <table class="table table-bordered my-table">
+                        <thead class="table-primary">
+                            <tr id="header">
+                                <td><strong>Sr. No.</strong></td>
+                                <td><strong>Project title</strong></td>
+                                <td><strong>Amount, Rs</strong></td>
+                                <td><strong>Faculty</strong></td>
+                                <td><strong>Agency</strong></td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            
+                            <tr>
+                                <td>1</td>
+                                <td>Minimization of flow instabilities over Impeller eye of a Low head Mixed Flow Centrifugal Pump through design modification of lock nut</td>
+                                <td>3,00,000</td>
+                                <td>Prof. N.A. Mandhare</td>
+                                <td>ASPIRE, BCUD, SPPU</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed p-2" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    <h6>b) 2017-18
+                    </h6>
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <table class="table table-bordered my-table">
+                        <thead class="table-primary">
+                            <tr>
+                                <td><strong>Sr. No.</strong> 
+                                </td>
+                                <td><strong>Details</strong>
+                                </td>
+                                <td ><strong>Amount, Rs</strong>
+                                </td>
+                                <td><strong>Faculty </strong>
+                                </td>
+                                <td><strong>Agency</strong>
+                                </td>
+                            </tr>
+                        </thead>
+                            <tbody>
+                            <tr>
+                                <td width="45" valign="top">
+                                    <p>
+                                        <strong>1</strong>
+                                    </p>
+                                </td>
+                                <td width="217" valign="top">
+                                    <p>
+                                        Development of Solar Electric Passenger Vehicle
+                                    </p>
+                                </td>
+                                <td width="76" valign="top">
+                                    <p>
+                                        4,30,000
+                                    </p>
+                                </td>
+                                <td width="89" valign="top">
+                                    <p>
+                                        Dr. S. S. Lakade,
+                                    </p>
+                                    <p>
+                                        Dr. A. Roy
+                                    </p>
+                                </td>
+                                <td width="185" valign="top">
+                                    <p>
+                                        La Fondation, Dassault Systems
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="45" valign="top">
+                                    <p>
+                                        <strong>2</strong>
+                                    </p>
+                                </td>
+                                <td width="217" valign="top">
+                                    <p>
+                                        Design &amp; development of hydraulic rotational jib crane
+                                        + 02 projects
+                                    </p>
+                                </td>
+                                <td width="76" valign="top">
+                                    <p>
+                                        8,77,500
+                                    </p>
+                                </td>
+                                <td width="89" valign="top">
+                                    <p>
+                                        Dr. S.S. Lakade
+                                    </p>
+                                </td>
+                                <td width="185" valign="top">
+                                    <p>
+                                        TIFAC MSME Internship programme
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="45" valign="top">
+                                    <p>
+                                        <strong>3</strong>
+                                    </p>
+                                </td>
+                                <td width="217" valign="top">
+                                    <p>
+                                        Seminar Grant for Training program on Biomass &amp;
+                                        Bio-Energy
+                                    </p>
+                                </td>
+                                <td width="76" valign="top">
+                                    <p>
+                                        1,00,000
+                                    </p>
+                                </td>
+                                <td width="89" valign="top">
+                                    <p>
+                                        Dr. S.S. Lakade,
+                                    </p>
+                                    <p>
+                                        Prof. G.G. Momin
+                                    </p>
+                                </td>
+                                <td width="185" valign="top">
+                                    <p>
+                                        BCUD, SPPU
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="45" valign="top">
+                                    <p>
+                                        <strong>4</strong>
+                                    </p>
+                                </td>
+                                <td width="217" valign="top">
+                                    <p>
+                                        Installation of Rooftop Solar Power plant
+                                    </p>
+                                </td>
+                                <td width="76" valign="top">
+                                    <p>
+                                        5,00,000
+                                    </p>
+                                </td>
+                                <td width="89" valign="top">
+                                    <p>
+                                        Dr. A. Roy
+                                    </p>
+                                </td>
+                                <td width="185" valign="top">
+                                    <p>
+                                        BCUD, SPPU
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="45" valign="top">
+                                    <p>
+                                        <strong>5</strong>
+                                    </p>
+                                </td>
+                                <td width="217" valign="top">
+                                    <p>
+                                        Modernization of Heat Transfer Laboratory
+                                    </p>
+                                </td>
+                                <td width="76" valign="top">
+                                    <p>
+                                        3,50,000
+                                    </p>
+                                </td>
+                                <td width="89" valign="top">
+                                    <p>
+                                        Dr. S.S. Lakade, Dr. P.A. Deshmukh, Dr. C.L. Ladekar
+                                    </p>
+                                </td>
+                                <td width="185" valign="top">
+                                    <p>
+                                        MODROB, AICTE
+                                    </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed p-2" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    <h6>c) 2016-17</h6>
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <table class="table table-bordered my-table">
+                        <thead class="table-primary"> 
+                            <tr id="header">
+                                <td><strong>Sr. No.</strong></td>
+                                <td><strong>Details</strong></td>
+                                <td><strong>Amount, Rs.</strong></td>
+                                <td><strong>Faculty</strong></td>
+                                <td><strong>Agency</strong></td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                                <td>1</td>
+                                <td>Design and development of low cost solar air dryer using phase change material</td>
+                                <td>1,40,000</td>
+                                <td>Prof. S. P. Salve</td>
+                                <td>BCUD, SPPU</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed p-2" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    <h6 >d) 2014-15</h6>
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    <table class="table table-bordered my-table">
+                        <thead class="table-primary">
+                            <tr>
+                                <td>Sr. No.</td>
+                                <td>Details</td>
+                                <td>Amount, Rs.</td>
+                                <td>Faculty</td>
+                                <td>Agency</td>
+                            </tr>
+                        </thead>
+                            <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Experimental study of lifted spray flame</td>
+                                <td>85,000</td>
+                                <td>Dr. U.G. Potdar</td>
+                                <td>BCUD, SPPU</td>
+                            </tr>
+                        </tbody>
+                    </table>   
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+
+<footer>
+    <div class="p-0 m-0 footer">
+        <div class="container-fluid card-section">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 get-in-touch item">
+                    <h5>GET IN TOUCH</h5>
+                    <address>
+                        Sector 26,Pradhikarn, Nigdi,<br>
+                        (Near Akurdi Railway station)<br>
+                        Pune, 411 044<br>
+                        <i class="fas fa-phone-square-alt"></i> &nbsp; 655665654<br>
+                        <a href="mailto:admin@pccoepune.org" ><i class="fas fa-envelope-open-text"></i>&nbsp; admin@pccoepune.org</a>
+                    </address>
+                </div>
+                <div class="col-lg-3 col-sm-6 importent-link item">
+                    <h5>IMPORTANT LINKS</h5>
+                    <a href="">Home</a><hr class="mt-1 mb-1">
+                    <a href="">About PCCOE</a><hr class="mt-1 mb-1">
+                    <a href="">About PCET</a><hr class="mt-1 mb-1">
+                    <a href="">Other</a><hr class="mt-1 mb-1">
+                </div>
+                <div class="col-lg-3 col-sm-6 quick-link item">
+                    <h5>QUICK LINKS</h5>
+                    <a href="">Download</a><hr class="mt-1 mb-1">
+                    <a href="">Syllabus</a><hr class="mt-1 mb-1">
+                    <a href="">Placement</a><hr class="mt-1 mb-1">
+                    <a href="">Examination</a><hr class="mt-1 mb-1">
+                </div>
+                <div class="col-lg-3 col-sm-6 location item">
+                    <h5>LOCATION</h5>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d51742.45340162684!2d73.72737339090916!3d18.651850681670727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3bc2b9e4f7f81397%3A0x31a16133d1c2e40d!2sMechanical%20Department%2C%20PCCOE%2C%2026%2C%2059%2C%20Pradhikaran%2C%20Sector%20No.%2027%2C%20Pradhikaran%2C%20Nigdi%2C%20Pimpri-Chinchwad%2C%20Maharashtra%20411044!3m2!1d18.651767!2d73.7624412!5e1!3m2!1sen!2sin!4v1632397481500!5m2!1sen!2sin" width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+            <div class="footer-bottom pb-3">
+                <hr>
+                Copyright @2021 PIMPRI CHINCHWAD COLLEGE OF ENGINEERING
+            </div>
+        </div>
+    <div>
+    </footer>
+    <script src="vender/js/bootstrap.bundle.js"></script>
 </body>
 </html>

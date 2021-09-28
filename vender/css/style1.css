@@ -260,7 +260,7 @@ header {
     width: 90%;
     /* border-bottom: solid 2px #ffab1f; */
 }
-.branch-section .branch:hover {
+.branch-section .item:hover .branch{
     border-bottom: solid 2px #266abd;
 }
 
