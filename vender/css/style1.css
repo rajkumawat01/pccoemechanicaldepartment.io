@@ -252,6 +252,8 @@ header {
 }
 .branch-section .item{
     padding: 20px 10px;
+    margin-left: 5%;
+    margin-right: 5%;
     background-color: #fff;
     border-radius: 5px;
     margin-top: 20px;
