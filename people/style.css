@@ -44,7 +44,7 @@
 
 .card-title {
     margin-left: 20px;
-    font-family: 'Libre Baskerville', serif;
+    font-family: sans-serif, arial;
     font-weight: 600;
 }
 
@@ -127,7 +127,8 @@
     font-size: large;
     text-align: center;
     font-size: x-large;
-    background-color: rgba(34, 94, 150, 0.103);
+    font-weight: bold;
+/*     background-color: rgba(34, 94, 150, 0.103); */
 }
 
 .separator p {
