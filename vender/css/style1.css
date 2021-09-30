@@ -16,16 +16,29 @@
 }
 .header{
     padding-top: 2px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Raleway,sans-serif;
 }
 .header .dept-name{
-    color: red;
+    color: #1c4b85 !important;
+   font-weight: 700;
+}
+.header .description{
+    color: #0f70e7;
+    letter-spacing: 1px;
+    font-size: 12px;
 }
 .text-justify{
     text-align: justify;
 }
-.clg-name {
-    color: red;
+.header .pcet-name{
+    color: #0049a3 !important;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 700;   
+}
+.header .clg-name {
+    color: #0049a3 !important;
+    font-weight: 800;
 }
 .label-undergraduate span{
     padding:5px 10px;
