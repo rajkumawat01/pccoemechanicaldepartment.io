@@ -144,6 +144,7 @@
     box-sizing : border-box;
     justify-content: center;
     margin: 20px 0;
+    margin-left : 15px;
     padding: 2px 7px;
     border-radius: 0px;
     /* text-transform: lowercase; */
