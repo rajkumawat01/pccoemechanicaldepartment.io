@@ -14,8 +14,12 @@
     background-color: rgb(9, 149, 184);
     color: rgb(247, 247, 247);
 }
-header {
-    padding-top: 10px;
+.header{
+    padding-top: 2px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.header .dept-name{
+    color: red;
 }
 .text-justify{
     text-align: justify;
