@@ -143,6 +143,40 @@ header {
 .section .section-list li:hover{
     background-color: #0073ff11;
 }
+
+
+
+/* important Links*/
+.implinks-section{
+    border-radius: 5px;
+}
+.implinks-section .section-head{
+    /* background-color: #266abd; */
+    color: #266abd;
+    font-weight: 700;
+    padding: 10px 0px;
+    border-bottom: solid 1px #266abd;
+}
+.implinks-section .section-list{
+    list-style: none;
+    padding: 0px 5px;
+}
+.implinks-section .section-list a{
+    text-decoration: none;
+}
+.implinks-section .section-list li {
+    padding-left: 1.3em;
+    color: black;
+    border-bottom: solid 1px #266abd23;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: 400;
+    font-size: 13px;
+}
+.implinks-section .section-list li:hover{
+    background-color: #0073ff11;
+}
+
 /* END Quik Links*/
 
 .color-blue{
