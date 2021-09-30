@@ -17,49 +17,73 @@
      <link href="vender/icon/css/fontawesome.css" rel="stylesheet" />
      <link href="vender/icon/css/solid.css" rel="stylesheet" />
     <title>PCCOE | Mechanical Engineering</title>
-    <style></style>
+    <style>
+      @media only screen and (max-width: 1250px) {
+        .menu-section {
+        display: block !important;
+        padding: 0px !important;
+        }
+      }
+
+      @media only screen and (min-width: 1250px) {
+        #menu .main-menu {
+            display: block;
+            padding:0px;
+        }
+      }
+    </style>
 </head>
 
 <body>
-  <!-- Start Header -->
-    <header>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-2 col-sm-3 text-center">
-                    <img src="vender/img/logo/PCCOE_LOGO_b.jpg" style="width: 125px; height: 100px" /><br>
-                    <div class="extern-btn">
-                      <a href="http://www.pccoepune.com/" class="text-decoration-none">
-                        <i class="fas fa-home"></i> PCCOE
-                      </a>
-                    </div>
+ <!-- Start Header -->
+ <header>
+  <div class="container-fluid header">
+      <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-2 text-center d-flex justify-content-around align-items-center">
+              <div>
+                <img src="vender/img/logo/PCCOE_LOGO_b.jpg" style="width: 150px; height: 125px;" /><br>
+                <div class="extern-btn">
+                  <a href="http://www.pccoepune.com/" class="text-decoration-none">
+                    <i class="fas fa-home"></i> PCCOE
+                  </a>
                 </div>
-                <div class="col-lg-8 col-sm-9">
-                    <div class="text-center">
-                        <h5 class="mt-3">PCET PIMPRI CHINCHWAD COLLEGE OF ENGINEERING</h5>
-                        <div class="clg-name">
-                            <h3>DEPARTMENT OF MECHANICAL ENGINEERING</h3>
-                        </div>
-                        <!-- <p class="m-0">
-                            <b>NBA</b> Accredited | <b>NAAC</b> Accredited with '<b>A</b>' | An <b>Atutonomous Institute </b><br />
-                            <b>ISO 9001: 2015</b> Certified | Permanetly Affilated to
-                            <b>SPPU</b>, Pune
-                        </p> -->
-                    </div>
+              </div>
+          </div>
+          <div class="col-lg-6">
+              <div class="text-center">
+                  <p class="p-0 m-0 mt-3 pcet-name">PIMPRI CHINCHWAD EDUCATION TRUST</p>
+                  <div class="clg-name">
+                      <h4 class="p-0 m-0">PIMPRI CHINCHWAD COLLEGE OF ENGINEERING</h4>
+                  </div>
+                  <p class="m-0 p-1 description text-secondary">
+                    <b>NAAC</b> Accreditation With "<b>A Grade</b>" An | <b>Autonomous</b> Institute | <b>AICTE</b> Approved |<b>ISO 9001: 2015</b> Certified | Permanently Affiliated to  <b>SPPU, Pune </b>
+                  </p>
+                   <h4 class="dept-name mb-3 mt-3">Department Of Mechanical Engineering</h4>
+              </div>
+          </div>
+          <div class="col-lg-2 	d-none d-lg-block text-center d-flex justify-content-around align-items-center">
+              <div>
+                <a href="http://pcet.org.in/"><img src="vender/img/logo/logo.png" style="width: 150px; height: 125px;" /></a>
+                <div class="extern-btn invisible">
+                  <a href="http://www.pccoepune.com/" class="text-decoration-none">
+                    <i class="fas fa-home"></i> PCCOE
+                  </a>
                 </div>
-                <div class="col-lg-2 text-center d-none d-lg-block">
-                    <a href="http://pcet.org.in/"><img src="vender/img/logo/logo.png" style="width: 125px; height: 100px" /></a>
-                </div>
-            </div>
-        </div>
-    </header>
-     <!-- End Header -->
+              </div>
+          </div>
+          <div class="col-lg-1"></div>
+      </div>
+  </div>
+</header>
+<!-- End Header -->
 
   <!-- Start Navbar -->
-  <div class="menu-section">
+  <div class="menu-section d-flex justify-content-around">
     <nav id="menu">
         <label for="tm" id="toggle-menu"><b>Menu</b> <span class="drop-icon"><b>&#9776;</b></span></label>
         <input type="checkbox" id="tm">
-        <ul class="main-menu cf" style="padding: 0px 3%;">
+        <ul class="main-menu cf">
             <li class="b-left"><a href="index.html">Home</a></li>
             <li class="b-left"><a href="#">About us
                     <span class="drop-icon">▾</span>
@@ -109,9 +133,9 @@
             </li>
             <li class="b-left"><a href="#">Research
                     <span class="drop-icon">▾</span>
-                    <label title="Toggle Drop-down" class="drop-icon" for="sm5">▾</label>
+                    <label title="Toggle Drop-down" class="drop-icon" for="smr">▾</label>
                 </a>
-                <input type="checkbox" id="sm5">
+                <input type="checkbox" id="smr">
                 </a>
                 <ul class="sub-menu">
                     <li><a href="research/sig.html">Research Area Sigs</a></li>
@@ -123,7 +147,7 @@
                 </ul>
             </li>
 
-            <li class="b-left"><a href="#">Placement
+            <li class="b-left"><a href="#">TNP
               <span class="drop-icon">▾</span>
               <label title="Toggle Drop-down" class="drop-icon" for="sm50">▾</label>
               </a>
