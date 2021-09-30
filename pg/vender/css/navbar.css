@@ -2,8 +2,7 @@
     position: absolute;
     width: 100%;
     z-index: 999;
-    background-color: #4170aa;
-    border-bottom: solid 5px #ffab1f;
+    background-color: #266abd;
 }
 #menu ul {
     margin: 0;
@@ -36,7 +35,7 @@
 } */
 
 #menu .sub-menu {
-    background-color: #4170aa;
+    background-color: #266abd;
     /* border-width: 1px 1px 0; */
     margin: 0 1em;
 }
@@ -70,8 +69,8 @@
 }
 
 #menu a:hover {
-    background-color: #ffab1f;
-    color: #ffff;
+    background-color: #c3d8f1;
+    color: black;
 }
 
 #menu .sub-menu {
