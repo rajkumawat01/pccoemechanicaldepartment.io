@@ -43,6 +43,7 @@
 }
 
 .card-title {
+    padding-left: 12px;
     font-family: sans-serif, arial;
     font-weight: 600;
 }
