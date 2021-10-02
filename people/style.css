@@ -416,7 +416,6 @@ body {
     .card {
         width: 100%;
         align-self: center;
-        margin-left: 50%;
     }
     .bg-light {
         display: flex;
