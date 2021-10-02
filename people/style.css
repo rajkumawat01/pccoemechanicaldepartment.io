@@ -363,7 +363,7 @@ body {
     .card {
         display: flex;
         flex-direction: column;
-        width: 200px;
+        width: 100%;
     }
     .container-fluid {
         padding: 0px;
@@ -412,5 +412,16 @@ body {
     .btn-primary,
     .btn-small {
         justify-content: center;
+    }
+    .card {
+        width: 100%;
+        align-self: center;
+        margin-left: 50%;
+    }
+    .bg-light {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
     }
 }
