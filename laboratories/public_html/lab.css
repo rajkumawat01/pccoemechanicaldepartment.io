@@ -10,27 +10,27 @@ and open the template in the editor.
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float:right;
-  width: 30%;
-  padding: 6px 6px 6px 6px;
+  width: 33%;
+  
  
 }
 .column2{
     display: block;
     float:left;
     width: 30%;
-    padding: 6px 6px 6px 6px;
+    padding: 10px;
     
 }
 img {
   
-  padding: 5px;
+  padding: 3px;
   width: 150px;
 }
 .polaroid {
   width: 75%;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 10px;
+  margin-bottom: 5px;
  
 }
 .container {
@@ -38,7 +38,8 @@ img {
   padding: 10px 20px;
   font-family: sans-serif;
   width: 95%;
-  
+  font-size: 15px;
+  font-weight:bold;
 }
 h1{
     text-align: center;
@@ -48,32 +49,6 @@ h3{
     text-align: center;
     
     
-}
-
-.typewriter h3 {
-  color: black ;
-  font-family: monospace bold;
-  overflow: hidden; 
-  border-right: .15em solid orange; 
-  white-space: nowrap;
-  margin: 0 auto; 
-  letter-spacing: .15em;
-  animation: 
-    typing 3.5s steps(30, end),
-    blink-caret .5s step-end infinite;
-  animation-iteration-count: 4;
-}
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange }
 }
 
 .image-container{
@@ -90,3 +65,11 @@ a:hover {
     align: center;
     width: 40% ;
 }
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
