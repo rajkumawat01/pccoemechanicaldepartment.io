@@ -139,7 +139,6 @@
     align-content: flex-end;
     justify-content: end;
 }
-
 .goup {
     box-sizing: border-box;
     justify-content: center;
@@ -148,18 +147,18 @@
     padding: 2px 7px;
     border-radius: 0px;
     /* text-transform: lowercase; */
-    background: #f6fbfd;
-    border: 2px solid #f6fbfd;
-    border-radius: 5px;
+    background-color: rgba(45, 120, 182, 0.787);
+    border: 2px solid rgba(45, 120, 182, 0.4);
+    border-radius: 10px;
 }
 
 .goup:hover {
-    background: #bfdfff;
-    border: 2px solid blue;
+    background-color: rgba(45, 120, 182);
+    border: 2px solid rgba(16, 65, 88, 0.205);
 }
 
 .goup a:hover {
-    color: rgb(25, 110, 152);
+    color: white;
 }
 
 .logo {
