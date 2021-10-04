@@ -425,3 +425,31 @@ body {
         align-content: center;
     }
 }
+
+.sub-navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    list-style: none;
+    margin-left: 0px;
+    padding: 0;
+}
+
+.sub-navbar li {
+    background: #f6fbfd;
+    margin: 5px 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.sub-navbar li a {
+    margin: 0;
+}
+
+.nav-link {
+    padding: 0;
+}
+
+.sub-navbar li:hover {
+    background: #bfdfff;
+}
