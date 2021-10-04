@@ -109,9 +109,13 @@
 .b-right {
     border-right: solid 1px #fff !important;
 } */
-@media only screen and (max-width: 1150px) {
+@media only screen and (max-width: 1250px) {
     #menu .main-menu {
         padding-left: 50px !important;
+    }
+    .menu-section {
+        display: block !important;
+        padding: 0px !important;
     }
 }
 @media only screen and (max-width: 992px) {
@@ -128,7 +132,7 @@
 @media only screen and (min-width: 1250px) {
     #menu .main-menu {
         display: block;
-        padding-left: 200px;
+        padding:0px;
     }
 
     #toggle-menu,

@@ -16,56 +16,60 @@
      <link href="vender/icon/css/brands.css" rel="stylesheet" />
      <link href="vender/icon/css/fontawesome.css" rel="stylesheet" />
      <link href="vender/icon/css/solid.css" rel="stylesheet" />
-    <title>PCCOE | Mechanical Engineering</title>
-    <style></style>
+    <title>Department Of Mechanical Engineering | PCCOE</title>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
 </head>
 
 <body>
-  <!-- Start Header -->
-    <header>
-        <div class="container-fluid header">
-            <div class="row">
-                <div class="col-lg-1"></div>
-                <div class="col-lg-2 col-sm-3 text-center d-flex justify-content-around align-items-center">
-                    <div>
-                      <img src="vender/img/logo/PCCOE_LOGO_b.jpg" style="width: 150px; height: 125px;" /><br>
-                      <div class="extern-btn">
-                        <a href="http://www.pccoepune.com/" class="text-decoration-none">
-                          <i class="fas fa-home"></i> PCCOE
-                        </a>
-                      </div>
-                    </div>
+ <!-- Start Header -->
+ <header>
+  <div class="container-fluid header">
+      <div class="row">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-2 text-center d-flex justify-content-around align-items-center">
+              <div>
+                <img src="vender/img/logo/PCCOE_LOGO_b.jpg" style="width: 150px; height: 125px;" /><br>
+                <div class="extern-btn">
+                  <a href="http://www.pccoepune.com/" class="text-decoration-none">
+                    <i class="fas fa-home"></i> PCCOE
+                  </a>
                 </div>
-                <div class="col-lg-6 col-sm-9">
-                    <div class="text-center">
-                        <p class="p-0 m-0 mt-3 pcet-name">PIMPRI CHINCHWAD EDUCATION TRUST</p>
-                        <div class="clg-name">
-                            <h4 class="p-0 m-0">PIMPRI CHINCHWAD COLLEGE OF ENGINEERING</h4>
-                        </div>
-                        <p class="m-0 p-1 description text-secondary">
-                          <b>NAAC</b> Accreditation With "<b>A Grade</b>" An | <b>Autonomous</b> Institute | <b>AICTE</b> Approved |<b>ISO 9001: 2015</b> Certified | Permanently Affiliated to  <b>SPPU, Pune </b>
-                        </p>
-                         <h4 class="dept-name mb-3 mt-3">Department Of Mechanical Engineering</h4>
-                    </div>
+              </div>
+          </div>
+          <div class="col-lg-6">
+              <div class="text-center">
+                  <p class="p-0 m-0 mt-3 pcet-name">PIMPRI CHINCHWAD EDUCATION TRUST</p>
+                  <div class="clg-name">
+                      <h4 class="p-0 m-0">PIMPRI CHINCHWAD COLLEGE OF ENGINEERING</h4>
+                  </div>
+                  <p class="m-0 p-1 description text-secondary">
+                    <b>NAAC</b> Accreditation With "<b>A Grade</b>" | An <b>Autonomous</b> Institute | <b>AICTE</b> Approved |<b>ISO 9001: 2015</b> Certified | Permanently Affiliated to  <b>SPPU, Pune </b>
+                  </p>
+                   <h4 class="dept-name fs-3 mb-3 mt-3">Department Of Mechanical Engineering</h4>
+              </div>
+          </div>
+          <div class="col-lg-2 	d-none d-lg-block text-center d-flex justify-content-around align-items-center">
+              <div>
+                <a href="http://pcet.org.in/"><img src="vender/img/logo/logo.png" style="width: 150px; height: 125px;" /></a>
+                <div class="extern-btn invisible">
+                  <a href="http://www.pccoepune.com/" class="text-decoration-none">
+                    <i class="fas fa-home"></i> PCCOE
+                  </a>
                 </div>
-                <div class="col-lg-2 text-center d-flex justify-content-around align-items-center">
-                    <div>
-                      <a href="http://pcet.org.in/"><img src="vender/img/logo/logo.png" style="width: 150px; height: 125px;" /></a>
-                      <div class="extern-btn invisible">
-                        <a href="http://www.pccoepune.com/" class="text-decoration-none">
-                          <i class="fas fa-home"></i> PCCOE
-                        </a>
-                      </div>
-                    </div>
-                </div>
-                <div class="col-lg-1"></div>
-            </div>
-        </div>
-    </header>
-     <!-- End Header -->
+              </div>
+          </div>
+          <div class="col-lg-1"></div>
+      </div>
+  </div>
+</header>
+<!-- End Header -->
 
   <!-- Start Navbar -->
-  <div class="menu-section">
+  <div class="menu-section d-flex justify-content-around">
     <nav id="menu">
         <label for="tm" id="toggle-menu"><b>Menu</b> <span class="drop-icon"><b>&#9776;</b></span></label>
         <input type="checkbox" id="tm">
@@ -101,7 +105,20 @@
                 <input type="checkbox" id="sm8">
                 </a>
                 <ul class="sub-menu">
-                    <li><a href="index.html">UG</a></li>
+                    <li>
+                      <a href="">UG
+                        <span class="drop-icon">▸</span>
+                        <label title="Toggle Drop-down" class="drop-icon" for="smug">▾</label>
+                      </a>
+                      <input type="checkbox" id="smug">
+                      </a>
+                      <ul class="sub-menu">
+                          <li><a href="ug/workshop_organised.html">Workshop Organised</a></li>
+                          <li><a href="ug/workshop_attended.html">Workshop Attended</a></li>
+                          <li><a href="ug/course_outline.html">Course Outline</a></li>
+                          <li><a href="ug/activity_calender.html">Activity Calendar</a></li>
+                      </ul>
+                    </li>
                     <li>
                       <a href="">PG
                         <span class="drop-icon">▸</span>
@@ -110,8 +127,8 @@
                       <input type="checkbox" id="sm5">
                       </a>
                       <ul class="sub-menu">
-                          <li><a href="pg/me-design.html">Design Engineering</a></li>
-                          <li><a href="pg/me-heatpower.html">Heat Power Engineering</a></li>
+                          <li><a href="pg/me-design.html">M.Tech Design Engineering</a></li>
+                          <li><a href="pg/me-heatpower.html">M.Tech Heat Power Engineering</a></li>
                       </ul>
                     </li>
                     <li><a href="phd/phd_home.html">Ph. D</a></li>
@@ -119,21 +136,22 @@
             </li>
             <li class="b-left"><a href="#">Research
                     <span class="drop-icon">▾</span>
-                    <label title="Toggle Drop-down" class="drop-icon" for="sm5">▾</label>
+                    <label title="Toggle Drop-down" class="drop-icon" for="smr">▾</label>
                 </a>
-                <input type="checkbox" id="sm5">
+                <input type="checkbox" id="smr">
                 </a>
                 <ul class="sub-menu">
-                    <li><a href="research/sig.html">Research Area Sigs</a></li>
+                    <li><a href="research/sig.html">Research Area SIG's</a></li>
                     <li><a href="research/publication.html">Publication</a></li>
                     <li><a href="research/copyright.html">Intellectual Property Rights</a></li>
                     <li><a href="research/research funding.html">Research Funding </a></li>
-                    <li><a href="research/cs_projects">Consultancy/sponsored Projects</a></li>
-                    <li><a href="research/student_achivements.html">Student Achivements</a></li>
+                    <li><a href="research/cs_projects.html">Consultancy/Sponsored Projects</a></li>
+                    <li><a href="research/student_achivements.html">Student Achievements</a></li>
+                    <li><a href="research/entrepreneurship.html">Entrepreneurship</a></li>
                 </ul>
             </li>
 
-            <li class="b-left"><a href="#">Placement
+            <li class="b-left"><a href="#">Training & Placement
               <span class="drop-icon">▾</span>
               <label title="Toggle Drop-down" class="drop-icon" for="sm50">▾</label>
               </a>
@@ -147,7 +165,31 @@
                   <li><a href="placement/mou.html">MOU's</a></li>
               </ul>
             </li>
-            <li class="b-left"><a href="laboratories/public_html/index.html">Laboratories</a></li>
+            <li class="b-left"><a href="#">Facilities
+                    <span class="drop-icon">▾</span>
+                    <label title="Toggle Drop-down" class="drop-icon" for="smsfc">▾</label>
+                </a>
+                <input type="checkbox" id="smsfc">
+                </a>
+                <ul class="sub-menu">
+                    <li><a href="facilities/public_html/laboratories.html">Laboratories</a></li>
+                    <li><a href="facilities/public_html/library.html">Library</a></li>
+                </ul>
+            </li>
+            <li class="b-left"><a href="#">Student Development & Welfare
+                    <span class="drop-icon">▾</span>
+                    <label title="Toggle Drop-down" class="drop-icon" for="smsdw">▾</label>
+                </a>
+                <input type="checkbox" id="smsdw">
+                </a>
+                <ul class="sub-menu">
+                    <li><a href="Student_development&Welfare/public_html/higher_studies.html">Higher study cell</a></li>
+                    <li><a href="Student_development&Welfare/public_html/Communication_Personality_Development.html">Communication and Personality Development Cell</a></li>
+                    <li><a href="Student_development&Welfare/public_html/professional_development.html">Professional Development Cell</a></li>
+                    <li><a href="Student_development&Welfare/public_html/ISR.html">Institutional Social Responsibility</a></li>
+                    <li><a href="Student_development&Welfare/public_html/nation_services_scheme.html">National Service Scheme</a></li>
+                </ul>
+            </li>
             <li class="b-left"><a href="#">Clubs
                     <span class="drop-icon">▾</span>
                     <label title="Toggle Drop-down" class="drop-icon" for="sm9">▾</label>
@@ -155,18 +197,19 @@
                 <input type="checkbox" id="sm9">
                 </a>
                 <ul class="sub-menu">
-                    <li><a href="clubs/mesa.html">Team MESA</a></li>
+                    <li><a href="clubs/mesa.html">MESA</a></li>
                     <li><a href="clubs/ambush.html">Team Ambush</a></li>
                     <li><a href="clubs/redbaron.html">Team Red Baron</a></li>
                     <li><a href="clubs/kratos.html">Team Kratos Racing</a></li>
                     <li><a href="clubs/solarium.html">Team Solarium</a></li>
                     <li><a href="clubs/automaton.html">Team Automatons</a></li>
+                    <li><a href="clubs/maverick.html">Team Maverick</a></li>
                     <li><a href="clubs/ishrae.html">ISHRAE</a></li>
                     <li><a href="clubs/iei.html">IEI</a></li>
                     <li><a href="clubs/sport.html">Sports</a></li>
                 </ul>
             </li>
-            <li class="b-left b-right"><a href="contact_us/contact2.html">Contact us</a></li>
+            <li class="b-left b-right"><a href="contact_us/index.html">Contact us</a></li>
         </ul>
     </nav>
 </div>
@@ -192,19 +235,19 @@
     <div id="carouselExampleCaptions" class="carousel slide carousel-fade" interval="100" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="vender/img/slider/slider-1.jpg" class="d-block w-100" alt="..." />
+        <img src="vender/img/slider/img-1_1.png" class="d-block w-100" alt="..." />
         <div class="carousel-caption pb-0">
           <span class="title">1/3</span>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="vender/img/slider/slider-2.png" class="d-block w-100" alt="..." />
+        <img src="vender/img/slider/img-2.jpg" class="d-block w-100" alt="..." />
         <div class="carousel-caption pb-0">
           <span class="title">2/3</span>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="vender/img/slider/slider-3.png" class="d-block w-100" alt="..." />
+        <img src="vender/img/slider/img-3.jpg" class="d-block w-100" alt="..." />
         <div class="carousel-caption pb-0">
           <span class="title">3/3</span>
         </div>
@@ -219,11 +262,13 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  <div class="container-fluid p-2">
+  <div class="container-fluid pt-2 mt-3">
     <div class="row">
       <div class="col-lg-3">
         <div class="section bg-light">
-          <h5 class="section-head">&nbsp; <i class="fas fa-angle-double-right"></i> Student Corner</h5>
+          <div class="border-bottom border-1 border-primary pt-3">
+            <p class="fs-5 color-blue">&nbsp; <i class="fas fa-angle-double-right"></i> Student Corner</p>
+          </div>
           <ul class="section-list">
             <a href="student_corner/adminssion.html">
               <li>Admission</li>
@@ -247,7 +292,7 @@
               <li>Downloads</li>
             </a>
             <a href="student_corner/department_boucher.html">
-              <li>Department Boucher</li>
+              <li>Department Broucher</li>
             </a>
           </ul>
         </div>
@@ -255,7 +300,9 @@
 
 
         <div class="implinks-section bg-light">
-          <h5 class="section-head">&nbsp; <i class="fas fa-angle-double-right"></i> Important Links</h5>
+          <div class="border-bottom border-1 border-primary pt-3">
+            <p class="fs-5 color-blue">&nbsp; <i class="fas fa-angle-double-right"></i> Important Links</p>
+          </div>
           <ul class="section-list">
             <marquee direction="up" height="235px;" scrollamount="4" onmouseover="this.stop();" onmouseout="this.start();">
             <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfUpU1gG7-Me9S2oE-cSlcfvMqGAwCu083sfB5RvC-5aTSWMg/viewform?c=0&w=1">
@@ -272,60 +319,67 @@
         </div>
       </div>
       <div class="col-lg-9">
-        <div class="container-fluid p-2 about-section pb-5 bg-light rounded">
-          <div class="container-fluid title">About Mechanical</div>
+        <div class="container-fluid p-3 about-section bg-light rounded">
+            <div class="border-bottom border-1 border-primary">
+              <p class="fs-4 color-blue">About Mechanical</p>
+            </div>
           <div class="row mt-4">
-              <div class="col-lg-3 text-center">
-                  <img src="vender/img/logo/i-am-eng.png"/>
-                  <!-- <p class="text-center">
-                     
-                  </p> -->
-              </div>
-              <div class="col-lg-9 text-data">
-                  <p class="text-data mt-3">
-                    The <b>Mechanical Engineering</b> Department at Pimpri Chinchwad College of Engineering believes in producing engineers who take a product from an idea to the market place. The department has highly qualified and experienced faculty with expertise in the areas of Design, Production, Manufacturing and Thermal. The Department has a strong culture of project based learning which is inculcated in the students through the team of enlightened faculty. The department has defined the programme outcomes and all the good initiatives are undertaken to facilitate and fulfill the same.
+              <div class="col-lg-12 text-data">
+                  <p class="text-data mt-2">
+                    The <b>Department of Mechanical Engineering</b>  at Pimpri Chinchwad College of Engineering 
+                    believes in producing engineers who take a product from an idea to the market place.
+                    The department has highly qualified and experienced faculty with expertise in the areas 
+                    of Design, Production, Manufacturing and Thermal.
+                  </p>
+                  <p class="text-data mt-2">
+                    The department has a strong culture of project based learning which is inculcated in 
+                    the students through the team of enlightened faculty.
+                    The department has defined the programme outcomes and all the good initiatives 
+                    are undertaken to facilitate and fulfill the same.
                   </p>
               </div>
           </div>
       </div>
-      <div class="row mt-4">
+      <div class="row mt-3">
         <div class="col-sm-6">
           <div class="container-fluid p-3 bg-light branch-section">
-             <h4 class="color-blue head mb-0">Courses</h4>
+            <div class="border-bottom border-1 border-primary">
+              <p class="fs-4 color-blue">Courses</p>
+            </div>
             <div class="row text-center justify-content-center">
-                <div class="col-lg-6 col-sm-6">
+                <div class="col-6">
                   <a class="text-decoration-none text-dark" href="index.html">
-                    <div class="item">
+                    <div class="item text-center">
                         <img src="vender/img/logo/b-tech.jpg"/><br>
                         <span class="post">B. Tech</span><br>
-                        <span class="branch">Mechanical Engineering</span>
+                        <div class="branch">Mechanical Engineering</div>
                     </div>
                   </a>
                 </div>
-                <div class="col-lg-6 col-sm-6">
+                <div class="col-6">
                   <a class="text-decoration-none text-dark" href="pg/me-design.html">
                     <div class="item">
                         <img src="vender/img/logo/m-tech.jpg"/><br>
                         <span class="post">M.Tech</span><br>
-                        <span class="branch">Design Engineering</span>
+                        <div class="branch">Design Engineering</div>
                     </div>
                   </a>
                 </div>
-                <div class="col-lg-6 col-sm-6">
+                <div class="col-6">
                   <a class="text-decoration-none text-dark" href="pg/me-heatpower.html">
                     <div class="item">
                         <img src="vender/img/logo/m-tech2.png"/><br>
                         <span class="post">M.Tech</span><br>
-                        <span class="branch">Heat Power Engineering </span>
+                        <div class="branch">Heat Power Engineering </div>
                     </div>
                   </a>
                 </div> 
-                <div class="col-lg-6 col-sm-6">
+                <div class="col-6">
                   <a class="text-decoration-none text-dark" href="phd/phd_home.html">
                     <div class="item">
                         <img src="vender/img/logo/phd.jpg"/><br>
                         <span class="post">Ph.D</span><br>
-                        <span class="branch">Mechanical Engineering</span>
+                        <div class="branch">Mechanical Engineering</div>
                     </div>
                 </a>
               </div>
@@ -441,49 +495,152 @@
 
    
 <!-- start footer -->
-<footer>
-    <div class="p-0 m-0 footer">
-        <div class="container-fluid card-section">
-            <div class="row">
-                <div class="col-lg-3 col-sm-6 get-in-touch item">
-                    <h5>GET IN TOUCH</h5>
-                    <address>
-                        Sector 26,Pradhikarn, Nigdi,<br>
-                        (Near Akurdi Railway station)<br>
-                        Pune, 411 044<br>
-                        <i class="fas fa-phone-square-alt"></i> &nbsp; 655665654<br>
-                        <a href="mailto:admin@pccoepune.org" ><i class="fas fa-envelope-open-text"></i>&nbsp; admin@pccoepune.org</a>
-                    </address>
-                </div>
-                <div class="col-lg-3 col-sm-6 importent-link item">
-                    <h5>IMPORTANT LINKS</h5>
-                    <a href="">Home</a><hr class="mt-1 mb-1">
-                    <a href="">About PCCOE</a><hr class="mt-1 mb-1">
-                    <a href="">About PCET</a><hr class="mt-1 mb-1">
-                    <a href="">Other</a><hr class="mt-1 mb-1">
-                </div>
-                <div class="col-lg-3 col-sm-6 quick-link item">
-                    <h5>QUICK LINKS</h5>
-                    <a href="">Download</a><hr class="mt-1 mb-1">
-                    <a href="">Syllabus</a><hr class="mt-1 mb-1">
-                    <a href="">Placement</a><hr class="mt-1 mb-1">
-                    <a href="">Examination</a><hr class="mt-1 mb-1">
-                </div>
-                <div class="col-lg-3 col-sm-6 location item">
-                    <h5>LOCATION</h5>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d51742.45340162684!2d73.72737339090916!3d18.651850681670727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3bc2b9e4f7f81397%3A0x31a16133d1c2e40d!2sMechanical%20Department%2C%20PCCOE%2C%2026%2C%2059%2C%20Pradhikaran%2C%20Sector%20No.%2027%2C%20Pradhikaran%2C%20Nigdi%2C%20Pimpri-Chinchwad%2C%20Maharashtra%20411044!3m2!1d18.651767!2d73.7624412!5e1!3m2!1sen!2sin!4v1632397481500!5m2!1sen!2sin" width="100%" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-            </div>
-            <div class="footer-bottom pb-3">
-                <hr>
-                Copyright @2021 PIMPRI CHINCHWAD COLLEGE OF ENGINEERING
-            </div>
-        </div>
-    <div>
+<footer class="container-fluid">
+  <div class="row bg-blue d-flex justify-content-center px-5 pb-3 mt-md-4">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <div class="text-white">
+          <div class="mt-5">
+            <h5>
+              <p class="text-white text-center">
+                Follow us
+              </p>
+            </h5>
+          </div>
+          <div class="d-flex justify-content-evenly align-self-center">
+            <a targrt="_blank" href="https://www.instagram.com/pccoepune/" class="text-decoration-none text-white">
+              <span class="fs-4">
+                <i class="fab fa-instagram"></i>
+              </span> 
+            </a>
+            <a targrt="_blank" href="https://www.linkedin.com/company/pccoe-pune/?trk=biz-companies-cym" class="text-decoration-none text-white">
+              <span class="fs-4">
+                <i class="fab fa-linkedin-in"></i>
+              </span> 
+            </a>
+            <a targrt="_blank" href="https://www.facebook.com/PCCOENigadi/" class="text-decoration-none text-white">
+              <span class="fs-4">
+                <i class="fab fa-facebook"></i>
+              </span> 
+            </a>
+            
+            <a targrt="_blank" href="https://twitter.com/pccoe_pune?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="text-decoration-none text-white">
+              <span class="fs-4">
+                <i class="fab fa-twitter"></i>
+              </span> 
+            </a>
+            <a targrt="_blank" href="https://www.youtube.com/channel/UCQiPDETOiteTLmAvvPk1WjA" class="text-decoration-none text-white">
+              <span class="fs-4">
+                <i class="fab fa-youtube"></i>
+              </span> 
+            </a>
+          </div>
+      </div>
+    </div>
+    <div class="col-md-4"></div>
+    
+  </div>
+  <div class="row bg-blue d-flex justify-content-center px-5 pt-md-5">
+    <div class="col-lg-4 col-md-6 mb-3 ps-md-5">
+      <div class="border-bottom border-2 border-white mb-3">
+        <h5>
+          <p class="text-white">
+            <i class="fas fa-map-marker-alt"></i> Location
+          </p>
+        </h5>
+      </div>
+      <div class="text-white">
+        <address>
+          <h6>Sector - 26, Pradhikaran, Nigdi,</h6>
+          <h6>Near Akurdi Railway Station,</h6>
+          <h6>Pune - 411 044.</h6>
+        </address>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 mb-3 ps-md-5">
+      <div class="border-bottom border-2 border-white mb-3">
+        <h5>
+          <p class="text-white">
+            <i class="fas fa-phone"></i> Contact us
+          </p>
+        </h5>
+      </div>
+      <div class="text-white">
+          <h6>Tele : 020 – 2765 3168</h6>
+          <h6>Tele : 020 – 2765 3166</h6>
+          <h6>Ph : +91 9960984347</h6>
+          <h6>
+            <a targrt="_blank"  href="mailto:admin@pccoepune.org" class="text-decoration-none text-white">
+              <i class="fas fa-envelope"></i>&nbsp; admin@pccoepune.org</a>
+            </a>
+          </h6>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-12 mb-3 ps-md-5">
+      <div class="border-bottom border-2 border-white mb-3">
+        <h5>
+          <p class="text-white">
+            <i class="fas fa-link"></i> Useful Links
+          </p>
+        </h5>
+      </div>
+      <div>
+        <div>
+          <p>
+            <a targrt="_blank"  href="index.html" class="text-decoration-none text-white">
+              <h6>
+                <i class="fas fa-external-link-alt"></i> Homepage
+              </h6>
+            </a>
+          </p>
+          <p>
+            <a targrt="_blank" href="http://www.pccoepune.com/" class="text-decoration-none text-white">
+              <h6>
+                <i class="fas fa-external-link-alt"></i> PCCOE
+              </h6>
+            </a>
+          </p>
+          <p>
+            <a targrt="_blank" href="http://pcet.org.in/" class="text-decoration-none text-white">
+              <h6>
+                <i class="fas fa-external-link-alt"></i> PCET
+              </h6>
+            </a>
+          </p>
+      </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row bg-dark d-flex justify-content-center">
+    <div class="col-md-6">
+      <div class="m-3">
+        <h6>
+          <p class="text-white text-center">
+            Copyright &copy; 2021 PIMPRI CHINCHWAD COLLEGE OF ENGINEERING
+          </p>
+        </h6>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="text-white">
+          <div class="m-3">
+            <h6>
+              <p class="text-white text-center">
+                Designed by PCET Digital Marketing Department
+              </p>
+            </h6>
+          </div>
+      </div>
+    </div>
+  </div>
 </footer>
 <!-- End footer -->
+
     <script src="vender/js/bootstrap.bundle.js"></script>
     <!-- <script src="vender/js/navbar.js"></script> -->
 
 </body>
 </html>
+
