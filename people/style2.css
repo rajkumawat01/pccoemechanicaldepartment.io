@@ -1,0 +1,21 @@
+.profile button a {
+    text-decoration: none;
+    color: white;
+}
+
+.profile button {
+    margin: 5px 0 0 5px;
+}
+
+.profile {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media only screen and (max-width: 700px) {
+    .profile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
