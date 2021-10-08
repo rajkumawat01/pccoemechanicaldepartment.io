@@ -597,6 +597,51 @@
 
 
 
+.class-teacher{
+    border-radius: 10px;
+    padding-bottom: 50px !important;
+}
+.class-teacher .title{
+    padding:10px 10px 0px 10px;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
+    color: #266abd;
+    border-bottom: solid 2px #266abd;
+}
+.class-teacher .content-panel{
+    padding-top: 20px;   
+}
+.class-teacher .content-panel .item{
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(245, 244, 244, 0.644);
+}
+
+.class-teacher .content-panel .item img{
+    border-radius: 10px;
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+}
+.class-teacher .content-panel .item .description{
+    color: rgb(144, 144, 144);
+    font-size: 13px;
+    font-weight: 500;
+    font-style: italic;
+    padding: 0px;
+    margin: 0px;
+}
+.class-teacher .content-panel .item .batch{
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+    font-size: 13px;
+    font-style: italic;
+    color: rgb(144, 144, 144);
+}
+
 .university-rank{
     background-color: rgba(245, 244, 244, 0.644);
     margin-top: 30px;
