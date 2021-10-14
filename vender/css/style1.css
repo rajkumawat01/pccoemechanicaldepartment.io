@@ -398,7 +398,7 @@
 .bos-section .text-data{
     text-align: justify;
     padding-top: 10px;
-    font-size: 13px;
+    font-size: 15px;
 }
 .bos-section .section-2 h5{
     border-bottom: solid 2px #266abd;
@@ -737,10 +737,10 @@
 }
 .my-table td{
 text-align: justify;
-font-size: 14px;
+font-size: 16px;
 }
 .my-list li{
-font-size: 14px;
+font-size: 16px;
 padding: 2px;
 text-align: justify;
 }
