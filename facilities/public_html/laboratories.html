@@ -168,7 +168,29 @@ and open the template in the editor.
 			font-size: 20px;
 			font-weight: bold;
 			}
+			
+		.card {
+			transition: all 0.2s ease;
+			cursor: pointer;
+		}
+		.container .card {
+			 box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+		}
+		
+		.card:hover {
+			box-shadow: 0px 0px 0px 3px #87CEFA;
+			transform: scale(1.09)
+		}
+		
+		.card-text{
+			font-family: "Verdana", Sans-serif;
+			font-size: 14px;
+	}
+	
+	
+	
             
+
 
         </style>
     </head>
@@ -376,7 +398,9 @@ and open the template in the editor.
       <div class="container-lg ">
 	  <div class="display-4 mb-4">Laboratories</div>
 	  <div class="bg-light p-3">
+	  
 	  <div class="container">
+	  
         
 		<!--<div class="text2">
         <h3>FY B.Tech</h3>
@@ -427,6 +451,7 @@ and open the template in the editor.
 		</div>-->
   </div>
   </div>
+  
 </div>
 </section>
         
