@@ -1,8 +1,8 @@
 html {
     scroll-behavior: smooth;
 }
-body {
-    background-image: url("trophy.jpeg");
+.bg-img {
+    background-image: url("../img/kratosracing/tkr_img12.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,13 +11,13 @@ body {
 
 @font-face{
     font-family: batmanfont;
-    src:url("batmfa__.ttf");
+    src:url("../fonts/batmfa__.ttf");
   }
 
 
   @font-face{
     font-family: titi;
-    src:url("TitilliumWeb-Light.ttf");
+    src:url("../fonts/TitilliumWeb-Light.ttf");
   }
 
 
